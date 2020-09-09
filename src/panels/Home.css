@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+}
+
+.Home {
+  margin: 0;
+  padding: 0;
+}
+
+.Home__fixed-content {
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  background-color: #fff;
+}
+
+.Home__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 67px;
+  padding: 0 12px;
+  background-color: #fff;
+
+}
+
+.Home__head {
+  overflow: hidden;
+  margin: 0;
+  color: #000;
+}
+
+.Home__logo {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+  text-overflow: ellipsis;
+  text-decoration: none;
+  white-space: nowrap;
+  font-size: 24px;
+  font-weight: 600;
+  color: #000;
+}
+
+.Home__change-tz {
+  width: 45px;
+  height: 45px;
+}
+
+.Home__tabs {
+  display: flex;
+  justify-content: space-between;
+  height: 50px;
+  margin: 0;
+  border-bottom: 1px solid #919191;
+  padding: 0;
+}
+
+.Home__tab {
+  flex-basis: 33%;
+  position: relative;
+  overflow: hidden;
+  padding: 0 10px;
+  white-space: nowrap;
+  list-style: none;
+  text-overflow: ellipsis;
+  text-align: center;
+  line-height: 50px;
+  font-size: 19px;
+}
+
+.Home__tab_active:after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  height: 3px;
+  background-color: #3f8ae0;
+}
+
+.Home__tab_disabled {
+  color: #717171;
+  cursor: text;
+}
+
+.Home__edit {}
+
+.Home__items {
+  margin: 0;
+  padding: 115px 0 75px;
+}
+
+.Home__item {
+  list-style: none;
+}
+
+.Home__food-link {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  box-sizing: border-box;
+  height: 120px;
+  border-bottom: 1px solid #a3a3a3;
+  padding: 0 10px;
+  text-decoration: none;
+}
+
+.Home__food-link:hover,
+.Home__food-link:active {
+  background-color: #e6e6e6;
+}
+
+.Home__food-name {
+  margin: 25px 0 4px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000;
+}
+
+.Home__food-type {
+  width: calc(100% - 140px);
+  margin: 0;
+  font-size: 16px;
+  color: #545454;
+}
+
+.Home__image {
+  width: 120px;
+  height: 120px;
+}

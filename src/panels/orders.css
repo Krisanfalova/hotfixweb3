@@ -1,0 +1,113 @@
+.Orders {}
+
+.Orders__active-orders {
+  margin: 0;
+  padding: 10px;
+}
+
+.Orders__active-order {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+  margin-bottom: 40px;
+  border-radius: 20px;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: #ebedf0;
+  color: #000;
+}
+
+.Orders__left {
+  padding-left: 20px;
+}
+
+.Orders__header {
+  margin: 0;
+  padding: 0;
+  font-weight: 300;
+}
+
+.Orders__shop-name {
+  margin: 0;
+  padding: 0;
+}
+
+.Orders__price {
+  margin: 0;
+  padding: 0;
+}
+
+.Orders__time {
+  padding-right: 10px;
+  line-height: 60px;
+  font-size: 24px;
+  color: #4bb34b;
+}
+
+.Orders__finished-orders {
+  margin: 0;
+  padding: 10px;
+}
+
+.Orders__repeat {
+  margin-right: 10px;
+  border: 0;
+  background: 0;
+}
+
+.Orders__refresh {
+  width: 55px;
+  height: 55px;
+}
+
+.Orders__dark {
+  color: #383838;
+}
+
+.Orders__pink {
+  color: #818c99;
+}
+
+.Orders__finished-order {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  border-radius: 20px;
+  padding: 10px 0;
+  font-size: 16px;
+  background-color: #c3c3c3;
+  color: #f7b7ce;
+}
+
+.Orders__change {
+  position: absolute;
+  right: 125px;
+  bottom: -30px;
+  width: 100px;
+  height: 30px;
+  border-bottom-left-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #72c66b;
+  color: #fff;
+  cursor: pointer;
+}
+
+.Orders__cancel {
+  position: absolute;
+  right: 25px;
+  bottom: -30px;
+  width: 100px;
+  height: 30px;
+  border: 0;
+  border-bottom-right-radius: 20px;
+  text-align: center;
+  text-decoration: none;
+  line-height: 30px;
+  font-size: 20px;
+  background-color: #c72c2c;
+  color: #fff;
+  cursor: pointer;
+}

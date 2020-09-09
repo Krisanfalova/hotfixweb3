@@ -1,0 +1,30 @@
+.Checkbox {
+  display: inline-block;
+  position: relative;
+  width: 38px;
+  height: 38px;
+  border: 1px solid #000;
+}
+
+.Checkbox input[type="checkbox"] {
+  position: relative;
+  z-index: 1;
+  opacity: 0;
+  width: 38px;
+  height: 38px;
+  margin: 0;
+  padding: 0;
+}
+
+.Checkbox input[type="checkbox"]:checked ~ img {
+  opacity: 1;
+}
+
+.Checkbox img {
+  position: absolute;
+  opacity: 0;
+  left: 0;
+  top: 0;
+  width: 38px;
+  height: 38px;
+}
